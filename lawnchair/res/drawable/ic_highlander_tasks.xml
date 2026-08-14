@@ -1,0 +1,24 @@
+<!--
+  ~ Copyright (C) 2026 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<!-- Agenda do Highlander Tarefas: calendário com um "check". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:tint="#000000" android:viewportHeight="960" android:viewportWidth="960" android:width="24dp">
+
+    <path android:fillColor="@android:color/white" android:pathData="M240,200 h480 a40,40 0 0 1 40,40 v520 a40,40 0 0 1 -40,40 h-480 a40,40 0 0 1 -40,-40 v-520 a40,40 0 0 1 40,-40 Z M200,400 h560 v50 h-560 Z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M300,120 v160 a35,35 0 0 0 70,0 v-160 a35,35 0 0 0 -70,0 Z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M590,120 v160 a35,35 0 0 0 70,0 v-160 a35,35 0 0 0 -70,0 Z"/>
+    <path android:fillColor="#00000000" android:strokeColor="@android:color/white" android:strokeWidth="46" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M320,600 L440,720 L680,480"/>
+
+</vector>

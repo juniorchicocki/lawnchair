@@ -758,6 +758,21 @@ class PreferenceManager2 @Inject constructor(
         defaultValue = true,
     )
 
+    val smartspaceHighlanderTasks = preference(
+        key = booleanPreferencesKey("enable_smartspace_highlander_tasks"),
+        defaultValue = true,
+    )
+
+    val smartspaceHighlanderVehicle = preference(
+        key = booleanPreferencesKey("enable_smartspace_highlander_vehicle"),
+        defaultValue = true,
+    )
+
+    val smartspaceHighlanderFinance = preference(
+        key = booleanPreferencesKey("enable_smartspace_highlander_finance"),
+        defaultValue = true,
+    )
+
     val smartspaceShowDate = preference(
         key = booleanPreferencesKey("smartspace_show_date"),
         defaultValue = context.resources.getBoolean(R.bool.config_default_smartspace_show_date),

@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright (C) 2026 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<!-- Resumo do Meu Veículo: silhueta simples de carro visto de lado. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:tint="#000000" android:viewportHeight="960" android:viewportWidth="960" android:width="24dp">
+
+    <path android:fillColor="@android:color/white" android:pathData="M150,560 L220,400 Q245,350 300,350 L660,350 Q715,350 740,400 L810,560 Q840,565 840,600 L840,660 Q840,690 810,690 L770,690 Q765,750 705,750 Q650,750 640,690 L320,690 Q310,750 255,750 Q195,750 190,690 L150,690 Q120,690 120,660 L120,600 Q120,565 150,560 Z M280,430 L240,540 L440,540 L440,430 Z M500,430 L500,540 L700,540 L670,430 Z"/>
+
+</vector>

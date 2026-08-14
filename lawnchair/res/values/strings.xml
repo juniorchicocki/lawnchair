@@ -510,10 +510,36 @@
     <string name="smartspace_torch">Flashlight status</string>
     <string name="smartspace_now_playing">Now playing</string>
     <string name="smartspace_onboarding">Onboarding</string>
+    <string name="smartspace_highlander_tasks">Highlander Tasks</string>
+    <string name="smartspace_highlander_vehicle">Highlander Vehicle</string>
+    <string name="smartspace_highlander_finance">Highlander Finance</string>
 
     <!-- Torch strings -->
     <string name="torch_status_on">Flashlight on</string>
     <string name="torch_action_off">Tap to turn off</string>
+
+    <!-- Highlander Tasks strings -->
+    <string name="highlander_tasks_next">Next: %1$s</string>
+    <plurals name="highlander_tasks_today">
+        <item quantity="one">%1$d due today</item>
+        <item quantity="other">%1$d due today</item>
+    </plurals>
+    <plurals name="highlander_tasks_overdue">
+        <item quantity="one">%1$d overdue</item>
+        <item quantity="other">%1$d overdue</item>
+    </plurals>
+
+    <!-- Highlander Vehicle strings -->
+    <string name="highlander_vehicle_fuel_cost">Fuel %1$s</string>
+    <string name="highlander_vehicle_maintenance_cost">Maintenance %1$s</string>
+    <plurals name="highlander_vehicle_alerts">
+        <item quantity="one">%1$d alert due</item>
+        <item quantity="other">%1$d alerts due</item>
+    </plurals>
+
+    <!-- Highlander Finance strings -->
+    <string name="highlander_finance_balance">Balance %1$s</string>
+    <string name="highlander_finance_breakdown">Income %1$s · Expenses %2$s</string>
 
     <!-- Onboarding strings -->
     <string name="onboarding_open_settings_title">Set up Lawnchair</string>

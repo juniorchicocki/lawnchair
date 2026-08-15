@@ -25,17 +25,20 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
     <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.QSB" />
     <uses-permission android:name="com.kieronquinn.app.smartspacer.permission.ACCESS_SMARTSPACER"/>
-    <!-- Leitura dos ContentProvider dos apps Highlander (Tarefas, Meu
-         Veículo, Finanças) pro At a Glance — ver
+    <!-- Leitura dos ContentProvider dos apps Highlander (Meu Diário — antigo
+         Tarefas, hoje também dono das telas de Finanças que migraram pra lá
+         — e Meu Veículo) pro At a Glance — ver
          smartspace/provider/highlander/. Cada permissão é de nível
-         signature do lado do app dono; sem o uses-permission aqui, a
-         query falha com SecurityException mesmo assinado com a mesma
-         chave. QUERY_ALL_PACKAGES (acima, herdado de
-         AndroidManifest-common.xml) já cobre a visibilidade dos
-         providers no Android 11+, então não precisa de <queries>. -->
+         signature|knownSigner do lado do app dono, com esta keystore de
+         release do Lawnchair listada em android:knownCerts (as duas
+         keystores são diferentes entre si e da desta, então "signature"
+         sozinho nunca bastaria) — sem o uses-permission aqui, a query
+         falha com SecurityException de qualquer forma. QUERY_ALL_PACKAGES
+         (acima, herdado de AndroidManifest-common.xml) já cobre a
+         visibilidade dos providers no Android 11+, então não precisa de
+         <queries>. -->
     <uses-permission android:name="com.highlander.tasks.permission.READ_DATA" />
     <uses-permission android:name="com.highlander.auto.permission.READ_DATA" />
-    <uses-permission android:name="com.highlander.highlander_financas.permission.READ_DATA" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
